@@ -1,63 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T01:26:53.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6tT5zMe6y-iGonyeppoK" version="22.0.1" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-16T22:38:02.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="9CXAV6MJREke2KpsORh6" version="20.5.1" type="github">
   <diagram name="Page-1" id="6wdvCxNh-471eMVkn2ey">
-    <mxGraphModel dx="2084" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cHidrIDUAw1sjIVP_jHr-1" target="cHidrIDUAw1sjIVP_jHr-2">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="cHidrIDUAw1sjIVP_jHr-1" target="cHidrIDUAw1sjIVP_jHr-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-10" value="Interacts with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cHidrIDUAw1sjIVP_jHr-9">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-10" value="Interacts with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cHidrIDUAw1sjIVP_jHr-9" vertex="1" connectable="0">
           <mxGeometry x="-0.0857" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-1" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Patient&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;Someone who receives care at the healthcare provider.&amp;nbsp;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-1" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Patient&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;Someone who receives care at the healthcare provider.&amp;nbsp;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-100" y="230" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cHidrIDUAw1sjIVP_jHr-2" target="cHidrIDUAw1sjIVP_jHr-3">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cHidrIDUAw1sjIVP_jHr-2" target="cHidrIDUAw1sjIVP_jHr-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-5" value="Receives notes from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cHidrIDUAw1sjIVP_jHr-4">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-5" value="Receives notes from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cHidrIDUAw1sjIVP_jHr-4" vertex="1" connectable="0">
           <mxGeometry x="-0.0529" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cHidrIDUAw1sjIVP_jHr-2" target="cHidrIDUAw1sjIVP_jHr-6">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cHidrIDUAw1sjIVP_jHr-2" target="cHidrIDUAw1sjIVP_jHr-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-8" value="Creates and edits appointments" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cHidrIDUAw1sjIVP_jHr-7">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-8" value="Creates and edits appointments" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cHidrIDUAw1sjIVP_jHr-7" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-2" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Patient Portal&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Allows the patient to view upcoming appointments and read doctor notes.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-2" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Patient Portal&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Allows the patient to view upcoming appointments and read doctor notes.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="-85" y="440" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-3" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Records Storage System&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Stores records for each patient and each visit to the clinic.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fillStyle=solid;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-3" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Records Storage System&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Stores records for each patient and each visit to the clinic.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fillStyle=solid;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
           <mxGeometry x="-425" y="500" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="cHidrIDUAw1sjIVP_jHr-6" target="cHidrIDUAw1sjIVP_jHr-21">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" parent="1" source="cHidrIDUAw1sjIVP_jHr-6" target="cHidrIDUAw1sjIVP_jHr-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-23" value="Sends notifications using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cHidrIDUAw1sjIVP_jHr-22">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-23" value="Sends notifications using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cHidrIDUAw1sjIVP_jHr-22" vertex="1" connectable="0">
           <mxGeometry x="0.2942" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-6" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Appointment Scheduling System&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Stores records for past and future appointments.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fillStyle=solid;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-6" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Appointment Scheduling System&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Stores records for past and future appointments.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fillStyle=solid;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
           <mxGeometry x="255" y="500" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-21" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Notification System&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Sends SMS and email notifications, as well as voice phone calls.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fillStyle=solid;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-21" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Notification System&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Sends SMS and email notifications, as well as voice phone calls.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fillStyle=solid;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="255" y="170" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.657;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;jumpStyle=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="cHidrIDUAw1sjIVP_jHr-21" target="cHidrIDUAw1sjIVP_jHr-1">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.657;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;jumpStyle=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="cHidrIDUAw1sjIVP_jHr-21" target="cHidrIDUAw1sjIVP_jHr-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHidrIDUAw1sjIVP_jHr-25" value="Sends notifications using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cHidrIDUAw1sjIVP_jHr-24">
+        <mxCell id="cHidrIDUAw1sjIVP_jHr-25" value="Sends notifications using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cHidrIDUAw1sjIVP_jHr-24" vertex="1" connectable="0">
           <mxGeometry x="-0.03" y="2" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="AByTubor6ZIisQ7dZKOv-1" target="cHidrIDUAw1sjIVP_jHr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-4" value="Writes notes to, and reads notes from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AByTubor6ZIisQ7dZKOv-3">
+          <mxGeometry x="-0.1348" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;strokeWidth=1;dashPattern=12 12;" edge="1" parent="1" source="AByTubor6ZIisQ7dZKOv-1" target="cHidrIDUAw1sjIVP_jHr-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="875" />
+              <mxPoint x="520" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-6" value="Sends physician order notifications using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AByTubor6ZIisQ7dZKOv-5">
+          <mxGeometry x="0.2122" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="177" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-1" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Physician Portal&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Allows the physician to enter notes, issue physician orders, and review nurse and patient notes.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="790" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;startArrow=none;startFill=0;" edge="1" parent="1" source="AByTubor6ZIisQ7dZKOv-2" target="AByTubor6ZIisQ7dZKOv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-8" value="Interacts with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AByTubor6ZIisQ7dZKOv-7">
+          <mxGeometry x="0.3529" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-2" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Physician&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;Someone who provides care at the healthcare provider.&amp;nbsp;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1100" width="200" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
