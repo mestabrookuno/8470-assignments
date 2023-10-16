@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T22:38:02.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="9CXAV6MJREke2KpsORh6" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T22:54:05.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="et6M6sUgZOjiS3Jqr1Y9" version="20.5.1" type="github">
   <diagram name="Page-1" id="6wdvCxNh-471eMVkn2ey">
-    <mxGraphModel dx="2514" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2764" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,8 +12,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=1;startArrow=none;startFill=0;" edge="1" parent="1" source="cHidrIDUAw1sjIVP_jHr-1" target="AByTubor6ZIisQ7dZKOv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-25" value="Interacts with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AByTubor6ZIisQ7dZKOv-23">
+          <mxGeometry x="0.0665" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cHidrIDUAw1sjIVP_jHr-1" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Patient&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;Someone who receives care at the healthcare provider.&amp;nbsp;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="230" width="200" height="140" as="geometry" />
+          <mxGeometry x="-100" y="140" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="cHidrIDUAw1sjIVP_jHr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="cHidrIDUAw1sjIVP_jHr-2" target="cHidrIDUAw1sjIVP_jHr-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -64,7 +72,7 @@
         </mxCell>
         <mxCell id="AByTubor6ZIisQ7dZKOv-4" value="Writes notes to, and reads notes from" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AByTubor6ZIisQ7dZKOv-3">
           <mxGeometry x="-0.1348" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-26" y="-37" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AByTubor6ZIisQ7dZKOv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;strokeWidth=1;dashPattern=12 12;" edge="1" parent="1" source="AByTubor6ZIisQ7dZKOv-1" target="cHidrIDUAw1sjIVP_jHr-21">
@@ -93,6 +101,39 @@
         </mxCell>
         <mxCell id="AByTubor6ZIisQ7dZKOv-2" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Physician&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;Someone who provides care at the healthcare provider.&amp;nbsp;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-100" y="1100" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;startArrow=none;startFill=0;" edge="1" parent="1" source="AByTubor6ZIisQ7dZKOv-10" target="AByTubor6ZIisQ7dZKOv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-17" value="Interacts with" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AByTubor6ZIisQ7dZKOv-16">
+          <mxGeometry x="0.1907" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-10" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Nurse&lt;br&gt;&lt;/b&gt;[Person]&lt;br&gt;Someone who provides care at the healthcare provider.&amp;nbsp;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="1100" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;startArrow=none;startFill=0;" edge="1" parent="1" source="AByTubor6ZIisQ7dZKOv-11" target="cHidrIDUAw1sjIVP_jHr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-14" value="Writes notes to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AByTubor6ZIisQ7dZKOv-13">
+          <mxGeometry x="-0.19" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-11" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Nurse Portal&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Allows the nurse to enter hospital notes regarding patient and visit info from the hospital room.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="790" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="AByTubor6ZIisQ7dZKOv-19" target="cHidrIDUAw1sjIVP_jHr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-27" value="Reads bill info from, and updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AByTubor6ZIisQ7dZKOv-26">
+          <mxGeometry x="0.0867" y="-3" relative="1" as="geometry">
+            <mxPoint x="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AByTubor6ZIisQ7dZKOv-19" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Payment System&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Allows the patient to view and pay bills.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="160" width="170" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
