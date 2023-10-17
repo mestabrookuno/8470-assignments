@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T23:01:14.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="symiie2qaIc_wOROCvcc" version="20.5.1" type="github">
-  <diagram name="Page-1" id="6wdvCxNh-471eMVkn2ey">
+<mxfile host="app.diagrams.net" modified="2023-10-17T01:39:43.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="asYQKKz7s72hv2NPCwQs" version="20.5.1" type="github" pages="2">
+  <diagram name="System-Context-Diagram" id="6wdvCxNh-471eMVkn2ey">
     <mxGraphModel dx="2764" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -150,6 +150,68 @@
           <mxGeometry x="-0.6871" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ih515SVDy9qxd5JylJyh" name="Container-Diagram-PaymentSystem">
+    <mxGraphModel dx="2514" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qlOUlMTcVM908xsLM3eU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="K6t-_cssRPOL6u2Wr8ok-2" target="qlOUlMTcVM908xsLM3eU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K6t-_cssRPOL6u2Wr8ok-2" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Phone System&lt;/b&gt;&lt;/div&gt;[Language TBD]&lt;br&gt;Phone system which the customer dials into and uses the numpad to pass through prompts to read bill info.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="270" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="qlOUlMTcVM908xsLM3eU-1" target="qlOUlMTcVM908xsLM3eU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-6" value="Uses a web browser on port 443 (HTTPS)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="qlOUlMTcVM908xsLM3eU-5">
+          <mxGeometry x="0.363" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="qlOUlMTcVM908xsLM3eU-1" target="K6t-_cssRPOL6u2Wr8ok-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-8" value="Dials in via SIP/VoIP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="qlOUlMTcVM908xsLM3eU-7">
+          <mxGeometry x="0.2749" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-1" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Patient&lt;/b&gt;&lt;br&gt;[Person]&lt;br&gt;Someone who receives care at the healthcare provider.&amp;nbsp;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="30" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="qlOUlMTcVM908xsLM3eU-2" target="qlOUlMTcVM908xsLM3eU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-11" value="Make calls via HTTPS and JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="qlOUlMTcVM908xsLM3eU-10">
+          <mxGeometry x="0.1788" relative="1" as="geometry">
+            <mxPoint x="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-2" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b&gt;Internet Payment System&lt;br&gt;&lt;/b&gt;[Container with Python and Ember]&lt;br&gt;Allows the customer to use a web browser to view bills and make payments.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="270" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="qlOUlMTcVM908xsLM3eU-3" target="qlOUlMTcVM908xsLM3eU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-3" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;API Layer&lt;/b&gt;&lt;/div&gt;[Container: Python and Django REST Framework]&lt;br&gt;REST API endpoint that allows payment and viewing of bills, etc. Interfaces with the PostgreSQL DB as well.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="510" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-4" value="&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;[PostgreSQL DB]&lt;br&gt;Stores patient bill information.&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="740" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-13" value="Write to and read from via PostgreSQL queries" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="700" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="250" width="470" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="qlOUlMTcVM908xsLM3eU-15" value="Payment System&lt;br&gt;[Software System]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="885" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
