@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-17T01:41:46.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="z6HW8Kb_vDJvnsYhCnhe" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-17T01:48:32.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="oiw6VvXNyzOklGr5aus_" version="20.5.1" type="github" pages="3">
   <diagram name="System-Context-Diagram" id="6wdvCxNh-471eMVkn2ey">
     <mxGraphModel dx="2764" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -195,33 +195,114 @@
         <mxCell id="qlOUlMTcVM908xsLM3eU-2" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b&gt;Internet Payment System&lt;br&gt;&lt;/b&gt;[Container with Python and Ember]&lt;br&gt;Allows the customer to use a web browser to view bills and make payments.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="-525" y="270" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="qlOUlMTcVM908xsLM3eU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="qlOUlMTcVM908xsLM3eU-3" target="qlOUlMTcVM908xsLM3eU-4">
+        <mxCell id="qlOUlMTcVM908xsLM3eU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="qlOUlMTcVM908xsLM3eU-3" target="GnYq9MGi6lL7MPWMPcFD-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qlOUlMTcVM908xsLM3eU-3" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;API Layer&lt;/b&gt;&lt;/div&gt;[Container: Python and Django REST Framework]&lt;br&gt;REST API endpoint that allows payment and viewing of bills, etc. Interfaces with the PostgreSQL DB as well.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="-640" y="510" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="qlOUlMTcVM908xsLM3eU-4" value="&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;[PostgreSQL DB]&lt;br&gt;Stores patient bill information.&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="740" width="160" height="130" as="geometry" />
+          <mxGeometry x="-250" y="760" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="qlOUlMTcVM908xsLM3eU-13" value="Write to and read from via PostgreSQL queries" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-685" y="700" width="270" height="30" as="geometry" />
+        <mxCell id="qlOUlMTcVM908xsLM3eU-13" value="Writes and reads to/from using REST API calls over HTTPS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="700" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qlOUlMTcVM908xsLM3eU-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="250" width="470" height="670" as="geometry" />
+          <mxGeometry x="-790" y="250" width="470" height="450" as="geometry" />
         </mxCell>
         <mxCell id="qlOUlMTcVM908xsLM3eU-15" value="Payment System&lt;br&gt;[Software System]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-785" y="885" width="120" height="40" as="geometry" />
+          <mxGeometry x="-790" y="660" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8mQmiOour78j6PnSDRPK-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#000000;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-840" y="710" as="sourcePoint" />
-            <mxPoint x="-120" y="670" as="targetPoint" />
+            <mxPoint x="-300" y="950" as="sourcePoint" />
+            <mxPoint x="-270" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8mQmiOour78j6PnSDRPK-2" value="Security boundary between trusted data layer &lt;br&gt;and untrusted application layer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="8mQmiOour78j6PnSDRPK-1">
           <mxGeometry x="0.8186" y="1" relative="1" as="geometry">
-            <mxPoint x="99" y="-32" as="offset" />
+            <mxPoint x="56" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnYq9MGi6lL7MPWMPcFD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="GnYq9MGi6lL7MPWMPcFD-1" target="qlOUlMTcVM908xsLM3eU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GnYq9MGi6lL7MPWMPcFD-3" value="&lt;font color=&quot;#000000&quot;&gt;Writes to/reads from &lt;br&gt;using SQL queries&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="GnYq9MGi6lL7MPWMPcFD-2">
+          <mxGeometry x="0.2898" y="1" relative="1" as="geometry">
+            <mxPoint x="-32" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GnYq9MGi6lL7MPWMPcFD-1" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Records Storage System&lt;/b&gt;&lt;/div&gt;[Software System]&lt;br&gt;Stores records for each patient and each visit to the clinic.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fillStyle=solid;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="740" width="170" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RWErjLO1fSIFx240bB21" name="Container-Diagram-PhysicianPortal">
+    <mxGraphModel dx="2028" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="T2QtIb6SxQHjPFL33kJp-2" target="T2QtIb6SxQHjPFL33kJp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-2" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;Web App&lt;/b&gt;&lt;/div&gt;[Container with Python and Ember]&lt;br&gt;Lets the physician view patient notes and make notes on patient files in a web browser.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="270" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#FF0000;startArrow=none;startFill=0;" edge="1" parent="1" source="T2QtIb6SxQHjPFL33kJp-7" target="T2QtIb6SxQHjPFL33kJp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-4" value="Access via an iOS app on an iPad" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="T2QtIb6SxQHjPFL33kJp-3">
+          <mxGeometry x="0.363" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="T2QtIb6SxQHjPFL33kJp-7" target="T2QtIb6SxQHjPFL33kJp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-6" value="Uses a web browser on port 443 (HTTPS)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="T2QtIb6SxQHjPFL33kJp-5">
+          <mxGeometry x="0.2749" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-7" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Physician&lt;br&gt;&lt;/b&gt;[Person]&lt;br&gt;Someone who provides care at the healthcare provider.&amp;nbsp;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="30" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="T2QtIb6SxQHjPFL33kJp-10" target="T2QtIb6SxQHjPFL33kJp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-9" value="Make calls via HTTPS and JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="T2QtIb6SxQHjPFL33kJp-8">
+          <mxGeometry x="0.1788" relative="1" as="geometry">
+            <mxPoint x="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-10" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b&gt;Mobile App&lt;br&gt;&lt;/b&gt;[iOS App using Swift]&lt;br&gt;Lets the physician view patient notes and make notes on patient files in an iOS app.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="270" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;" edge="1" parent="1" source="T2QtIb6SxQHjPFL33kJp-12" target="T2QtIb6SxQHjPFL33kJp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-12" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;API Layer&lt;/b&gt;&lt;/div&gt;[Container: Python and Django REST Framework]&lt;br&gt;REST API endpoint that allows viewing of patient records as well as updating.&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="510" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-13" value="&lt;b&gt;Database&lt;/b&gt;&lt;br&gt;[PostgreSQL DB]&lt;br&gt;Stores patient bill information.&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="740" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-14" value="Write to and read from via PostgreSQL queries" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="700" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-16" value="Payment System&lt;br&gt;[Software System]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-785" y="885" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontColor=#000000;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-840.0000000000002" y="710" as="sourcePoint" />
+            <mxPoint x="-120" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T2QtIb6SxQHjPFL33kJp-18" value="Security boundary between trusted data layer &lt;br&gt;and untrusted application layer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="T2QtIb6SxQHjPFL33kJp-17">
+          <mxGeometry x="0.8186" y="1" relative="1" as="geometry">
+            <mxPoint x="56" y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
